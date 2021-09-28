@@ -1,6 +1,7 @@
 # This project demos contract testing using PACT
 
-#Installation
+#Disclaimer
+The idea here is to show a simple quick demo of pact with minimum code. So I have done a lot of hard coding here. The code you find here may not be optimal or of high standard
 
 #Steps
 1) Start pact broker using "docker-compose -f "docker-compose.yml" up -d --build"
