@@ -1,0 +1,37 @@
+{
+  "provider": {
+    "name": "provider_A"
+  },
+  "consumer": {
+    "name": "consumer_A"
+  },
+  "interactions": [
+    {
+      "description": "GET request for string",
+      "request": {
+        "method": "GET",
+        "path": "/getConsOneData"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "text/plain"
+        },
+        "body": "Hello ConsumerA"
+      },
+      "providerStates": [
+        {
+          "name": "Test for getConsOneData end point"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "3.0.0"
+    },
+    "pact-jvm": {
+      "version": "4.0.10"
+    }
+  }
+}
